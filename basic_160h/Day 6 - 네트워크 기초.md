@@ -23,7 +23,7 @@
 		- firewall
 			- network firewall method: stateful vs stateless
 		- L4 switch: 헤더 정보를 분석하여 데이터 패킷을 처리하고 전송 방향 결정하거나, 패킷의 송수신을 모니터링하고 필요에 따라 트래픽을 제어함
-	- 애플리케이션 계층
+	- 애플리케이션 계층(Message)
 		- next-generation firewall
 		- WAF: 웹 애플리케이션 방화벽, 일반적인 공격으로부터 웹 애플리케이션을 보호하는 보안 솔루션
 		- L7 switch: 패킷의 포트 정보뿐만 아니라 페이로드까지 분석해 로드 밸런싱을 함. L4 switch보다 더 세밀한 수준의 고급 로드 밸렁싱과 트래픽 관리를 가능케 함
